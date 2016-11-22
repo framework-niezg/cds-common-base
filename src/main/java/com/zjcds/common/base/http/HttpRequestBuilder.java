@@ -16,7 +16,9 @@ import org.apache.http.entity.ContentType;
 import org.apache.http.entity.StringEntity;
 import org.apache.http.message.BasicHeader;
 import org.apache.http.message.BasicNameValuePair;
-import org.apache.log4j.Logger;
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
+
 
 import java.net.URI;
 import java.net.URISyntaxException;
@@ -82,7 +84,7 @@ public class HttpRequestBuilder{
 	/**path及query字符集*/
 	private String uriCharSet = defaultURIEncoding; 
 	/**日志记录*/
-	private Logger logger = Logger.getLogger(this.getClass());
+	private Logger logger = LoggerFactory.getLogger(this.getClass());
 	
 	/**
 	 * 构造方法
