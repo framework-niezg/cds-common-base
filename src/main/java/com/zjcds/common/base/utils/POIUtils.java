@@ -10,6 +10,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 import org.apache.commons.io.IOUtils;
+import org.apache.commons.lang3.StringUtils;
 import org.apache.commons.lang3.time.FastDateFormat;
 import org.apache.poi.ss.usermodel.*;
 
@@ -235,7 +236,7 @@ public class POIUtils {
 //		}
 		else
 			throw new RuntimeException("不支持得cell类型:类型值为"+type);
-		return ret;
+		return StringUtils.trim(ret);
 	}
 
 }
