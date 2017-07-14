@@ -6,19 +6,19 @@
 
     <groupId>com.zjcds.common</groupId>
     <artifactId>cds-common-base</artifactId>
-    <version>1.2-SNAPSHOT</version>
+    <version>1.3-SNAPSHOT</version>
 
     <parent>
         <groupId>com.zjcds.common</groupId>
         <artifactId>cds-common-parent</artifactId>
-        <version>1.1</version>
+        <version>1.2</version>
     </parent>
 
-    <properties>
-        <!--工程组件版本-->
-        <spring.version>4.1.6.RELEASE</spring.version>
-        <jackson.version>2.5.3</jackson.version>
-    </properties>
+    <!--<properties>-->
+        <!--&lt;!&ndash;工程组件版本&ndash;&gt;-->
+        <!--<spring.version>4.1.6.RELEASE</spring.version>-->
+        <!--<jackson.version>2.5.3</jackson.version>-->
+    <!--</properties>-->
 
     <dependencies>
         <dependency>
