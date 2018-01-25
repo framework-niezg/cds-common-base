@@ -6,19 +6,13 @@
 
     <groupId>com.zjcds.common</groupId>
     <artifactId>cds-common-base</artifactId>
-    <version>1.4-SNAPSHOT</version>
+    <version>1.5-SNAPSHOT</version>
 
     <parent>
         <groupId>com.zjcds.common</groupId>
         <artifactId>cds-common-parent</artifactId>
-        <version>1.2</version>
+        <version>1.4-SNAPSHOT</version>
     </parent>
-
-    <!--<properties>-->
-        <!--&lt;!&ndash;工程组件版本&ndash;&gt;-->
-        <!--<spring.version>4.1.6.RELEASE</spring.version>-->
-        <!--<jackson.version>2.5.3</jackson.version>-->
-    <!--</properties>-->
 
     <dependencies>
         <dependency>
@@ -35,7 +29,6 @@
         <dependency>
             <groupId>org.mybatis.spring.boot</groupId>
             <artifactId>mybatis-spring-boot-starter</artifactId>
-            <version>1.1.1</version>
             <optional>true</optional>
         </dependency>
 
@@ -48,49 +41,41 @@
         <dependency>
             <groupId>org.apache.commons</groupId>
             <artifactId>commons-lang3</artifactId>
-            <version>3.5</version>
         </dependency>
 
         <dependency>
             <groupId>commons-io</groupId>
             <artifactId>commons-io</artifactId>
-            <version>2.4</version>
         </dependency>
 
         <dependency>
             <groupId>commons-collections</groupId>
             <artifactId>commons-collections</artifactId>
-            <version>3.2.1</version>
         </dependency>
 
         <dependency>
             <groupId>org.apache.commons</groupId>
             <artifactId>commons-compress</artifactId>
-            <version>1.10</version>
         </dependency>
 
         <dependency>
             <groupId>commons-codec</groupId>
             <artifactId>commons-codec</artifactId>
-            <version>1.10</version>
         </dependency>
 
         <dependency>
             <groupId>net.sf.dozer</groupId>
             <artifactId>dozer</artifactId>
-            <version>5.5.1</version>
         </dependency>
 
         <dependency>
             <groupId>org.projectlombok</groupId>
             <artifactId>lombok</artifactId>
-            <version>1.16.12</version>
         </dependency>
 
         <dependency>
             <groupId>com.google.guava</groupId>
             <artifactId>guava</artifactId>
-            <version>20.0</version>
         </dependency>
         <dependency>
             <groupId>org.apache.poi</groupId>
@@ -104,13 +89,4 @@
             <scope>test</scope>
         </dependency>
     </dependencies>
-    <dependencyManagement>
-        <dependencies>
-            <dependency>
-                <groupId>org.apache.poi</groupId>
-                <artifactId>poi-ooxml</artifactId>
-                <version>3.15</version>
-            </dependency>
-        </dependencies>
-    </dependencyManagement>
 </project>
