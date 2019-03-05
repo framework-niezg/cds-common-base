@@ -29,13 +29,13 @@ public class PortScannerTest {
     /**
      * Method: scanPort(String networkSection, int startIp, int endIp)
      */
-//    @Test
-//    public void testScanPort() throws Exception {
-//        List<Integer> ret = new PortScanner().scanPort("192.168.1.3");
-//        Object[] arrs = ret.toArray();
-//        Arrays.sort(arrs);
-//        System.out.println(Arrays.toString(arrs));
-//    }
+    @Test
+    public void testScanPort() throws Exception {
+        List<Integer> ret = new PortScanner().scanPort("112.74.18.160");
+        Object[] arrs = ret.toArray();
+        Arrays.sort(arrs);
+        System.out.println(Arrays.toString(arrs));
+    }
 
     @Test
     public void testDate() throws Exception {
